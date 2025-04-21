@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .map-wrapper {
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  #star-map {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+  .hotspot {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1); /* keep for dev */
+    transition: background 0.3s;
+  }
+  
+  .hotspot:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .input-box {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guess the Constellation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌌 Guess the Constellation</h1>
+
+  <div class="map-wrapper">
+    <img src="images/constellation-map.jpg" alt="Star Map" id="star-map" />
+    
+    <!-- Clickable hotspots -->
+    <div class="hotspot" data-answer="orion" style="top: 61%; left: 47%;"></div>
+    <div class="hotspot" data-answer="ursa major" style="top: 12%; left: 25%;"></div>
+    <div class="hotspot" data-answer="cassiopeia" style="top: 7%; left: 70%;"></div>
+    <div class="hotspot" data-answer="scorpius" style="top: 75%; left: 55%;"></div>
+    <div class="hotspot" data-answer="lyra" style="top: 35%; left: 60%;"></div>
+  </div>
+
+  <div class="input-box">
+    <input type="text" id="guess" placeholder="Enter constellation name..." />
+    <button onclick="checkGuess()">Guess</button>
+  </div>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
